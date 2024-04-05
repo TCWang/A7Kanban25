@@ -11,14 +11,19 @@ const housesOrganized = {
 <template>
   <div class="">
     <div class="">
-      <h3>A7建案 熱銷排行榜 - 2023 Q1-Q4</h3>
+      <h3>A7建案 熱銷排行榜 - 2023 Q1-Q4 & 2024 Q1</h3>
 
       <p>
         資料來源; Facebook A7重劃區大小事 /
         <a
           href="https://www.facebook.com/groups/1951117865015671/permalink/6790404564420286/?mibextid=uJjRxr"
           >李世豪 2024/01/01</a
-        >。
+        >
+        &
+        <a
+          href="https://www.facebook.com/groups/1951117865015671/permalink/7139656539495085/"
+          >2024/04/01</a
+        >
       </p>
       <div class="">
         <div class="">
@@ -28,14 +33,16 @@ const housesOrganized = {
             :key="house.id"
             :No="house.No"
             :建案="house.建案"
-            :AQ1="house.實價登錄數Q1"
-            :AQ2="house.實價登錄數Q2"
-            :AQ3="house.實價登錄數Q3"
-            :AQ4="house.實價登錄數Q4"
-            :PQ1="house.實價平均Q1"
-            :PQ2="house.實價平均Q2"
-            :PQ3="house.實價平均Q3"
-            :PQ4="house.實價平均Q4"
+            :AQ1="house.實價登錄數23Q1"
+            :AQ2="house.實價登錄數23Q2"
+            :AQ3="house.實價登錄數23Q3"
+            :AQ4="house.實價登錄數23Q4"
+            :AQ5="house.實價登錄數24Q1"
+            :PQ1="house.實價平均23Q1"
+            :PQ2="house.實價平均23Q2"
+            :PQ3="house.實價平均23Q3"
+            :PQ4="house.實價平均23Q4"
+            :PQ5="house.實價平均24Q1"
             :index="index"
           />
         </div>

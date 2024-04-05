@@ -5,10 +5,12 @@
     <h4 class="header item">Q2成交</h4>
     <h4 class="header item">Q3成交</h4>
     <h4 class="header item">Q4成交</h4>
+    <h4 class="header item">Q1成交</h4>
     <h4 class="header item">Q1均價</h4>
     <h4 class="header item">Q2均價</h4>
     <h4 class="header item">Q3均價</h4>
     <h4 class="header item">Q4均價</h4>
+    <h4 class="header item">Q1均價</h4>
   </div>
   <div
     v-else
@@ -24,10 +26,12 @@
     <p class="header item">{{ AQ2 }}</p>
     <p class="header item">{{ AQ3 }}</p>
     <p class="header item">{{ AQ4 }}</p>
+    <p class="header item">{{ AQ5 }}</p>
     <p class="header item">{{ PQ1 }}</p>
     <p class="header item">{{ PQ2 }}</p>
     <p class="header item">{{ PQ3 }}</p>
     <p class="header item">{{ PQ4 }}</p>
+    <p class="header item">{{ PQ5 }}</p>
   </div>
 </template>
 
@@ -38,10 +42,12 @@ interface RowProps {
   AQ2?: number;
   AQ3?: number;
   AQ4?: number;
+  AQ5?: number;
   PQ1?: number;
   PQ2?: number;
   PQ3?: number;
   PQ4?: number;
+  PQ5?: number;
   index: number;
   isHeader?: boolean;
 }
