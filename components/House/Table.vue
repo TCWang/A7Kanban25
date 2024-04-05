@@ -11,11 +11,8 @@ const housesOrganized = {
 <template>
   <div class="">
     <div class="">
-      <h3>新建案列表</h3>
-      <p>
-        資料更新: 2023/10/25, 本網頁資訊非即時更新資料。請點擊
-        <mark>建案連接</mark> 查詢即時資訊。
-      </p>
+      <h3>A7 建案列表</h3>
+
       <div class="">
         <div class="">
           <HouseRow :isHeader="true" />
