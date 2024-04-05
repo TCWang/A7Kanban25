@@ -1,0 +1,1 @@
+import{_ as s,c as o,a as t,a6 as a,o as c}from"./QbHMBCIS.js";const n={},r={class:"container"};function l(e,_){return c(),o("div",null,[t("div",r,[a(e.$slots,"default")])])}const f=s(n,[["render",l]]);export{f as default};
