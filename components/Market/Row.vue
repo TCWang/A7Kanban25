@@ -76,7 +76,7 @@ const props = defineProps<RowProps>();
 .item-long {
   text-decoration: none;
 
-  width: 15%;
+  width: 20%;
   font-weight: 500;
 }
 .link {
