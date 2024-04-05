@@ -1,6 +1,5 @@
 <template>
   <div class="row" v-if="isHeader">
-    <h4 class="link item">區域</h4>
     <h4 class="header item">建案</h4>
 
     <h4 class="header item">每坪開價</h4>
@@ -17,7 +16,6 @@
         : { background: 'rgba(255,255,255,0.1)' }
     "
   >
-    <p class="header item">{{ 區域 }}</p>
     <a :href="`/houses/${建案}`" class="link item">{{ 建案 }}</a>
     <p class="header item">{{ 每坪開價 }}</p>
 
@@ -63,7 +61,7 @@ const props = defineProps<RowProps>();
 .item-long {
   text-decoration: none;
 
-  width: 26%;
+  width: 31%;
   font-weight: 500;
 }
 .link {

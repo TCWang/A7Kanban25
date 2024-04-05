@@ -2,12 +2,10 @@
   <NuxtLayout name="custom">
     <div class="container mb-2">
       <h3>{{ house.建案 }} 建案詳細資料</h3>
-      <!-- <div class="image-container">
-        <img :src="`@/assets/fig/${house.Figure}`" alt="" />
-      </div> -->
+
       <div class="flex flex-col md:flex-row">
         <div class="mx-2 w-full md:w-1/2">
-          <img :src="house.FigureURL" alt="" style="" class="" />
+          <img :src="`/images/house/${house.Figure}`" alt="" />
         </div>
 
         <div class="w-full md:w-1/2">
