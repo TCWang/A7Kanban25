@@ -19,12 +19,12 @@ const housesOrganized = {
           <HouseRow
             v-for="(house, index) in housesOrganized.newSorted"
             :key="house.id"
+            :區域="house.區域"
             :建案="house.建案"
             :每坪開價="house.每坪開價"
-            :一年成交均價="house.一年成交均價"
-            :登錄筆數="house.登錄筆數"
-            :最高實價="house.最高實價"
-            :最低實價="house.最低實價"
+            :投資建設="house.投資建設"
+            :樓層規劃="house.樓層規劃"
+            :棟戶規劃="house.棟戶規劃"
             :index="index"
           />
         </div>

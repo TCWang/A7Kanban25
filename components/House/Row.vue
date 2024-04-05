@@ -1,12 +1,12 @@
 <template>
   <div class="row" v-if="isHeader">
-    <h4 class="link item-long">建案</h4>
-    <h4 class="header item-long">開價</h4>
+    <h4 class="link item">區域</h4>
+    <h4 class="header item">建案</h4>
 
-    <h4 class="header item-long">登錄筆數</h4>
-    <h4 class="header item">一年均價</h4>
-    <h4 class="header item">最高實價</h4>
-    <h4 class="header item">最低實價</h4>
+    <h4 class="header item">每坪開價</h4>
+    <h4 class="header item">投資建設</h4>
+    <h4 class="header item-long">樓層規劃</h4>
+    <h4 class="header item-long">棟戶規劃</h4>
   </div>
   <div
     v-else
@@ -17,24 +17,24 @@
         : { background: 'rgba(255,255,255,0.1)' }
     "
   >
-    <a :href="`/houses/${建案}`" class="link item-long">{{ 建案 }}</a>
-    <p class="header item-long">{{ 每坪開價 }}</p>
+    <p class="header item">{{ 區域 }}</p>
+    <a :href="`/houses/${建案}`" class="link item">{{ 建案 }}</a>
+    <p class="header item">{{ 每坪開價 }}</p>
 
-    <p class="header item-long">{{ 登錄筆數 }}</p>
-    <p class="header item">{{ 一年成交均價 }}</p>
-    <p class="header item">{{ 最高實價 }}</p>
-    <p class="header item">{{ 最低實價 }}</p>
+    <p class="header item">{{ 投資建設 }}</p>
+    <p class="header item-long">{{ 樓層規劃 }}</p>
+    <p class="header item-long">{{ 棟戶規劃 }}</p>
   </div>
 </template>
 
 <script setup lang="ts">
 interface RowProps {
-  每坪開價?: string;
+  區域?: string;
   建案?: string;
-  一年成交均價?: string;
-  登錄筆數?: string;
-  最高實價?: string;
-  最低實價?: string;
+  每坪開價?: string;
+  投資建設?: string;
+  樓層規劃?: string;
+  棟戶規劃?: string;
   index: number;
   isHeader?: boolean;
 }
@@ -57,13 +57,13 @@ const props = defineProps<RowProps>();
 }
 .item {
   color: black;
-  width: 8%;
+  width: 12%;
   margin-right: 1rem;
 }
 .item-long {
   text-decoration: none;
 
-  width: 18%;
+  width: 26%;
   font-weight: 500;
 }
 .link {
