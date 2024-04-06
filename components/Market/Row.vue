@@ -38,16 +38,16 @@
 <script setup lang="ts">
 interface RowProps {
   建案?: string;
-  AQ1?: number;
-  AQ2?: number;
-  AQ3?: number;
-  AQ4?: number;
-  AQ5?: number;
-  PQ1?: number;
-  PQ2?: number;
-  PQ3?: number;
-  PQ4?: number;
-  PQ5?: number;
+  AQ1?: string;
+  AQ2?: string;
+  AQ3?: string;
+  AQ4?: string;
+  AQ5?: string;
+  PQ1?: string;
+  PQ2?: string;
+  PQ3?: string;
+  PQ4?: string;
+  PQ5?: string;
   index: number;
   isHeader?: boolean;
 }
