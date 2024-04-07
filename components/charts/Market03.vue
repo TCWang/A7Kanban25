@@ -1,6 +1,6 @@
 <template>
   <div class="m-4">
-    <h2>A7 生活圈 房屋市場趨勢 看板 2020 - 2024</h2>
+    <h2>2023-2024 主要建案銷售量</h2>
     <Bar id="myChart" :options="chartOptions" :data="chartData"></Bar>
   </div>
 </template>
