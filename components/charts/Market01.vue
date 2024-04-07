@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { Bar } from "vue-chartjs";
+import { Bar, Line } from "vue-chartjs";
 import {
   Chart as ChartJS,
   Title,
@@ -32,7 +32,7 @@ ChartJS.register(
 
 export default {
   name: "MixBarChartTeamplate",
-  components: { Bar },
+  components: { Bar, Line },
   data() {
     return {
       chartData: {
