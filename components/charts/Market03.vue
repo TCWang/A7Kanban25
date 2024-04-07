@@ -68,7 +68,6 @@ export default {
             borderWidth: 1,
             type: "bar",
           },
-
           {
             yAxisID: "A",
             label: "2023Q3-成交量",
@@ -78,7 +77,6 @@ export default {
             borderWidth: 1,
             type: "bar",
           },
-
           {
             yAxisID: "A",
             label: "2023Q4-成交量",
@@ -88,7 +86,6 @@ export default {
             borderWidth: 1,
             type: "bar",
           },
-
           {
             yAxisID: "A",
             label: "2024Q1-成交量",
