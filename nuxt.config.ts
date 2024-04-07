@@ -11,4 +11,11 @@ export default defineNuxtConfig({
   ],
 
   css: ["@/assets/css/tailwind.css"],
+
+  plugins: [
+    {
+      src: "~/plugins/chart.js",
+      mode: "client",
+    },
+  ],
 });
