@@ -40,7 +40,7 @@ export default {
         datasets: [
           {
             yAxisID: "A",
-            label: "銷售戶數",
+            label: "成交量",
             data: [301, 697, 999, 859, 399],
             backgroundColor: ["rgba(54, 162, 235, 0.2)"],
             borderColor: ["rgba(54, 162, 235, 1)"],
@@ -68,12 +68,20 @@ export default {
             ticks: { beginAtZero: true, color: "blue" },
             // Hide grid lines, otherwise you have separate grid lines for the 2 y axes
             grid: { display: false },
+            title: {
+              display: true,
+              text: "成交量",
+            },
           },
           B: {
             type: "linear",
             position: "right",
             ticks: { color: "red", min: 30, max: 45 },
             grid: { display: false },
+            title: {
+              display: true,
+              text: "平均每坪(萬元)",
+            },
           },
         },
       },

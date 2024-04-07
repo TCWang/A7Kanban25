@@ -4,6 +4,7 @@
     <MarketTable />
     <h1 class="mt-4">房屋市場分析看板</h1>
 
+    <ChartsMarket02 />
     <ChartsMarket01 />
   </div>
 </template>
