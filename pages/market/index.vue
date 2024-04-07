@@ -6,6 +6,7 @@
 
     <ChartsMarket02 />
     <ChartsMarket01 />
+    <ChartsMarket03 />
   </div>
 </template>
 
