@@ -25,6 +25,7 @@ const housesOrganized = {
           >2024/04/01</a
         >
       </p>
+      <p>請點擊 建案名稱 讀取詳細資料</p>
       <div class="">
         <div class="">
           <MarketRow :isHeader="true" />

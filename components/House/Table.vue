@@ -12,6 +12,7 @@ const housesOrganized = {
   <div class="">
     <div class="">
       <h3>A7 建案列表</h3>
+      請點擊 建案名稱 讀取詳細資料
 
       <div class="">
         <div class="">
