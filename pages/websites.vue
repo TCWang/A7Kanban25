@@ -61,7 +61,7 @@
           </NuxtLink>
         </li>
         <li class="bg-zinc-200 m-2 p-2 shadow-md rounded-xl">
-          <NuxtLink to="https://a7kanban13.netlify.app/">
+          <NuxtLink to="https://a7kanban12.netlify.app/">
             健康休閒
             <ul class="ml-2 mb-4 w-28">
               <li>步道資訊</li>
