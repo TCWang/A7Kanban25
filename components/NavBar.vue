@@ -97,8 +97,8 @@ export default {
           name: "地區資訊",
           open: false,
           submenu: [
-            { name: "A7重劃區", link: "/introduction" },
-            { name: "大林口生活圈", link: "/tbd" },
+            { name: "A7重劃區", link: "/introduction/a7" },
+            { name: "大林口生活圈", link: "/introduction/linko" },
             { name: "人口成長趨勢", link: "/tbd" },
             { name: "生活環境", link: "/tbd" },
           ],
