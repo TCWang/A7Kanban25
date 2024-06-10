@@ -1,11 +1,11 @@
 <script setup>
 import houses from "@/data/houses.json";
 
-const housesOrganized = {
-  newSorted: [...houses]
-    .filter((house) => house.選擇 === "Y")
-    .sort((a, b) => a.No - b.No),
-};
+// const housesOrganized = {
+//   newSorted: [...houses]
+//     .filter((house) => house.選擇 === "Y")
+//     .sort((a, b) => a.No - b.No),
+// };
 </script>
 
 <template>
@@ -18,7 +18,7 @@ const housesOrganized = {
         <div class="">
           <HouseRow :isHeader="true" />
           <HouseRow
-            v-for="(house, index) in housesOrganized.newSorted"
+            v-for="(house, index) in houses"
             :key="house.id"
             :區域="house.區域"
             :建案="house.建案"
