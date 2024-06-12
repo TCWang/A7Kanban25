@@ -1,6 +1,7 @@
 <template>
   <div class="m-4">
-    <h2>A7 生活圈 房屋市場趨勢 看板 2020 - 2024</h2>
+    <h3>A7 生活圈 房屋市場趨勢 看板 2020 - 2024</h3>
+    <p class="text-red-600">可點擊圖中項目, 獲得該項數值顯示</p>
     <Bar id="myChart" :options="chartOptions" :data="chartData"></Bar>
   </div>
 </template>

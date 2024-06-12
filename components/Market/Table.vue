@@ -11,21 +11,10 @@ const housesOrganized = {
 <template>
   <div class="">
     <div class="">
-      <h3>A7建案 熱銷排行榜 - 2023 Q1-Q4 & 2024 Q1</h3>
+      <h3>A7建案 熱銷排行榜</h3>
 
-      <p>
-        資料來源; Facebook A7重劃區大小事 /
-        <a
-          href="https://www.facebook.com/groups/1951117865015671/permalink/6790404564420286/?mibextid=uJjRxr"
-          >李世豪 2024/01/01</a
-        >
-        &
-        <a
-          href="https://www.facebook.com/groups/1951117865015671/permalink/7139656539495085/"
-          >2024/04/01</a
-        >
-      </p>
-      <p>請點擊 建案名稱 讀取詳細資料</p>
+      <p></p>
+
       <div class="">
         <div class="">
           <MarketRow :isHeader="true" />

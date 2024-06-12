@@ -94,16 +94,6 @@ export default {
       mobileMenuOpen: false,
       menuItems: [
         {
-          name: "地區資訊",
-          open: false,
-          submenu: [
-            { name: "A7重劃區", link: "/introduction/a7" },
-            { name: "大林口生活圈", link: "/introduction/linko" },
-            { name: "人口成長趨勢", link: "/tbd" },
-            { name: "生活環境", link: "/tbd" },
-          ],
-        },
-        {
           name: "交通指南",
           open: false,
           submenu: [
@@ -114,19 +104,29 @@ export default {
           ],
         },
         {
+          name: "地區資訊",
+          open: false,
+          submenu: [
+            { name: "A7重劃區資訊", link: "/introduction/a7" },
+            { name: "大林口生活圈", link: "/introduction/linko" },
+            { name: "人口成長趨勢", link: "/introduction/population" },
+          ],
+        },
+        {
           name: "地區建案",
           open: false,
           submenu: [
-            { name: "最近熱銷", link: "/tbd" },
+            { name: "最近熱銷", link: "/market" },
             { name: "建案匯總", link: "/houses" },
+            { name: "購屋須知", link: "/houses/knowledge" },
           ],
         },
         {
           name: "房屋市場",
           open: false,
           submenu: [
-            { name: "房市行情", link: "/market" },
-            { name: "房價趨勢", link: "/tbd" },
+            { name: "房市行情", link: "/market/charts" },
+            { name: "房價趨勢", link: "/market/trend" },
             { name: "市場分析", link: "/tbd" },
           ],
         },
