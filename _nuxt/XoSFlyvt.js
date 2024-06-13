@@ -1,1 +1,0 @@
-import{_ as t}from"./D7Rp4Esv.js";import{u as o,c as a,b as s,a as n,o as _}from"./Cl3hiPuO.js";import"./BUCJO_z5.js";const c={class:"container"},r=n("h1",null,"地區建案 - 最近熱銷",-1),f={__name:"index",setup(i){return o({title:"地區建案 - 最近熱銷"}),(m,p)=>{const e=t;return _(),a("div",c,[r,s(e)])}}};export{f as default};

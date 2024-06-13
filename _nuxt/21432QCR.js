@@ -1,1 +1,0 @@
-import{u as e,c as t,o as s,a}from"./Cl3hiPuO.js";const o=a("h1",null,"房屋市場 - 市場行情",-1),c=[o],u={__name:"charts",setup(_){return e({title:"房屋市場 - 市場行情"}),(n,r)=>(s(),t("div",null,c))}};export{u as default};
