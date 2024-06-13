@@ -1,7 +1,12 @@
 <template>
   <div class="container">
     <h1>地區建案 - 最近熱銷</h1>
-    <MarketTable />
+
+    <MarketTableUi />
+
+    <!-- <MarketTablePrice />
+    <br />
+    <MarketTableQuantity /> -->
   </div>
 </template>
 
