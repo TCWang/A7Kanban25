@@ -181,7 +181,7 @@ useHead({
   title: "城市探索-A7建案: " + name,
 });
 
-const house = houses.find((r) => r.建案 === name);
+const house = houses.HouseA7.find((r) => r.建案 === name);
 
 // useMeta({
 //   title: house.value ? name : "404 - House Not Found",

@@ -1,6 +1,9 @@
 <script setup>
 import houses from "@/data/houses.json";
 
+const housesOrganized = {
+  newSorted: [...houses.HouseA7],
+};
 // const housesOrganized = {
 //   newSorted: [...houses]
 //     .filter((house) => house.選擇 === "Y")
@@ -19,7 +22,7 @@ import houses from "@/data/houses.json";
         <div class="">
           <HouseRow :isHeader="true" />
           <HouseRow
-            v-for="(house, index) in houses"
+            v-for="(house, index) in housesOrganized.newSorted"
             :key="house.id"
             :區域="house.區域"
             :建案="house.建案"
