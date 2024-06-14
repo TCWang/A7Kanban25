@@ -2,14 +2,13 @@
   <div class="container">
     <h1>地區建案 - 實價資訊</h1>
 
-    <MarketTableUip />
-
+    <!-- <MarketTableUip />
     <br />
-    <MarketTableUiq />
+    <MarketTableUiq /> -->
 
-    <!-- <MarketTablePrice />
+    <MarketTablePrice />
     <br />
-    <MarketTableQuantity /> -->
+    <MarketTableQuantity />
   </div>
 </template>
 

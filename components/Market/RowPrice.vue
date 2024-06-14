@@ -1,18 +1,18 @@
 <template>
   <div class="row" v-if="isHeader">
-    <h4 class="link item-long">建案</h4>
-
-    <h4 class="header item">110Q3</h4>
-    <h4 class="header item">110Q4</h4>
-    <h4 class="header item">111Q1</h4>
-    <h4 class="header item">111Q2</h4>
-    <h4 class="header item">111Q3</h4>
-    <h4 class="header item">111Q4</h4>
-    <h4 class="header item">112Q1</h4>
-    <h4 class="header item">112Q2</h4>
-    <h4 class="header item">112Q3</h4>
-    <h4 class="header item">112Q4</h4>
-    <h4 class="header item">113Q1</h4>
+    <p class="header item-long">建案</p>
+    <p class="header item">110Q3</p>
+    <p class="header item">110Q4</p>
+    <p class="header item">111Q1</p>
+    <p class="header item">111Q2</p>
+    <p class="header item">111Q3</p>
+    <p class="header item">111Q4</p>
+    <p class="header item">112Q1</p>
+    <p class="header item">112Q2</p>
+    <p class="header item">112Q3</p>
+    <p class="header item">112Q4</p>
+    <p class="header item">113Q1</p>
+    <p class="header item">Ptotal</p>
   </div>
   <div
     v-else
@@ -23,19 +23,20 @@
         : { background: 'rgba(255,255,255,0.1)' }
     "
   >
-    <a :href="`/market/${name}`" class="link item-long">{{ name }}</a>
+    <a class="item-long">{{ name }}</a>
 
-    <p class="header item">{{ Y110Q3 }}</p>
-    <p class="header item">{{ Y110Q4 }}</p>
-    <p class="header item">{{ Y111Q1 }}</p>
-    <p class="header item">{{ Y111Q2 }}</p>
-    <p class="header item">{{ Y111Q3 }}</p>
-    <p class="header item">{{ Y111Q4 }}</p>
-    <p class="header item">{{ Y112Q1 }}</p>
-    <p class="header item">{{ Y112Q2 }}</p>
-    <p class="header item">{{ Y112Q3 }}</p>
-    <p class="header item">{{ Y112Q4 }}</p>
-    <p class="header item">{{ Y113Q1 }}</p>
+    <p class="item">{{ Y110Q3 }}</p>
+    <p class="item">{{ Y110Q4 }}</p>
+    <p class="item">{{ Y111Q1 }}</p>
+    <p class="item">{{ Y111Q2 }}</p>
+    <p class="item">{{ Y111Q3 }}</p>
+    <p class="item">{{ Y111Q4 }}</p>
+    <p class="item">{{ Y112Q1 }}</p>
+    <p class="item">{{ Y112Q2 }}</p>
+    <p class="item">{{ Y112Q3 }}</p>
+    <p class="item">{{ Y112Q4 }}</p>
+    <p class="item">{{ Y113Q1 }}</p>
+    <p class="item">{{ Ptotal }}</p>
   </div>
 </template>
 
@@ -70,6 +71,7 @@ interface RowProps {
   Y112Q3?: number;
   Y112Q4?: number;
   Y113Q1?: number;
+  Ptotal?: number;
   index: number;
   isHeader?: boolean;
 }
@@ -92,13 +94,13 @@ const props = defineProps<RowProps>();
 }
 .item {
   color: black;
-  width: 8%;
+  width: 6%;
   margin-right: 1rem;
 }
 .item-long {
   text-decoration: none;
 
-  width: 12%;
+  width: 28%;
   font-weight: 500;
 }
 .link {
