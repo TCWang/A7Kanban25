@@ -1,0 +1,1 @@
+import{u as t,c as a,b as o,a as r,r as s,o as n}from"./BVNIhfsE.js";const c=r("h1",null,"地區建案 - 最近熱銷",-1),m={__name:"current",setup(l){return t({title:"地區建案 - 最近熱銷"}),(_,u)=>{const e=s("MarketTable");return n(),a("div",null,[c,o(e)])}}};export{m as default};
