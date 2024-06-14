@@ -1,8 +1,11 @@
 <template>
   <div class="container">
-    <h1>地區建案 - 最近熱銷</h1>
+    <h1>地區建案 - 實價資訊</h1>
 
-    <MarketTableUi />
+    <MarketTableUip />
+
+    <br />
+    <MarketTableUiq />
 
     <!-- <MarketTablePrice />
     <br />
@@ -12,6 +15,6 @@
 
 <script setup>
 useHead({
-  title: "地區建案 - 最近熱銷",
+  title: "地區建案 - 實價資訊",
 });
 </script>

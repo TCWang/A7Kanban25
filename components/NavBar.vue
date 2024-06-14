@@ -116,7 +116,7 @@ export default {
           name: "地區建案",
           open: false,
           submenu: [
-            { name: "最近熱銷", link: "/market" },
+            { name: "實價資訊", link: "/market" },
             { name: "建案匯總", link: "/houses" },
             { name: "購屋須知", link: "/houses/knowledge" },
           ],
