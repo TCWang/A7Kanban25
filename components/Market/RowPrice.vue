@@ -12,6 +12,7 @@
     <p class="header item">112Q3</p>
     <p class="header item">112Q4</p>
     <p class="header item">113Q1</p>
+    <p class="header item">113Q2</p>
     <p class="header item">Ptotal</p>
   </div>
   <div
@@ -36,6 +37,7 @@
     <p class="item">{{ Y112Q3 }}</p>
     <p class="item">{{ Y112Q4 }}</p>
     <p class="item">{{ Y113Q1 }}</p>
+    <p class="item">{{ Y113Q2 }}</p>
     <p class="item">{{ Ptotal }}</p>
   </div>
 </template>
@@ -71,6 +73,7 @@ interface RowProps {
   Y112Q3?: number;
   Y112Q4?: number;
   Y113Q1?: number;
+  Y113Q2?: number;
   Ptotal?: number;
   index: number;
   isHeader?: boolean;
@@ -100,7 +103,7 @@ const props = defineProps<RowProps>();
 .item-long {
   text-decoration: none;
 
-  width: 28%;
+  width: 22%;
   font-weight: 500;
 }
 .link {

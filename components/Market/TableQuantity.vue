@@ -53,6 +53,7 @@ const housesOrganized = {
             :Y112Q3="house.Y112Q3"
             :Y112Q4="house.Y112Q4"
             :Y113Q1="house.Y113Q1"
+            :Y113Q2="house.Y113Q2"
             :Qtotal="house.Qtotal"
             :index="index"
           />
