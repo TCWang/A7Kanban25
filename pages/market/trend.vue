@@ -4,8 +4,6 @@
     <h2 class="mt-4">房屋市場分析看板</h2>
     <ChartsMarket01 />
     <ChartsMarket02 />
-
-    <ChartsMarket03 />
   </div>
 </template>
 

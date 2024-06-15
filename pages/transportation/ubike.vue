@@ -48,10 +48,20 @@
         </ul>
       </section>
       <section class="w-full md:w-1/2 p-2">
-        <h3>uBike</h3>
-        桃園
-        <a href="https://www.youbike.com.tw/region/main/">Ubike</a>
+        <h3>YouBike</h3>
+        <UButtonGroup orientation="horizontal">
+          <UButton to="https://www.youbike.com.tw/region/main/"
+            >桃園 Ubike</UButton
+          >
 
+          <UButton
+            to="https://www.youbike.com.tw/region/tycg/stations/"
+            color="primary"
+            >站點地圖 YouBike 2.0</UButton
+          >
+          <br />
+        </UButtonGroup>
+        <br /><br />
         YouBike 1.0/2.0 計費方式
         <ul>
           <li>4~8 小時內每 30 分鐘 20 元</li>
