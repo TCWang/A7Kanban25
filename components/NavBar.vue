@@ -98,9 +98,9 @@ export default {
           open: false,
           submenu: [
             { name: "區域公車", link: "/transportation" },
-            { name: "長庚轉運站", link: "/tbd" },
-            { name: "捷運資訊", link: "/tbd" },
-            { name: "UBike", link: "/tbd" },
+            { name: "長庚轉運站", link: "/transportation/transfer" },
+            { name: "捷運資訊", link: "/transportation/metro" },
+            { name: "計程車/UBike", link: "/transportation/ubike" },
           ],
         },
         {

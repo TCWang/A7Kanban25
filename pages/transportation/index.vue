@@ -63,6 +63,35 @@
           alt="公車607"
         />
       </div>
+      <div class="w-full md:w-1/2 p-2 shadow-md">
+        桃園樂活巴士
+        <UButton
+          color="primary"
+          variant="soft"
+          size="xl"
+          to="https://ebus.tycg.gov.tw/ebus/driving-map/53170"
+          label="長庚醫院線 L317 時刻表"
+        />
+        <UButton
+          color="primary"
+          variant="soft"
+          size="xl"
+          to="https://ebus.tycg.gov.tw/ebus/driving-map/53180"
+          label=" L318 時刻表"
+        />
+        <UButton
+          color="primary"
+          variant="soft"
+          size="xl"
+          to="https://ebus.tycg.gov.tw/ebus/driving-map/53190"
+          label=" L319 時刻表"
+        />
+
+        <NuxtImg
+          src="/images/transportation/TRA-102-龜山樂活巴士.jpeg"
+          alt="桃園樂活巴士"
+        />
+      </div>
     </div>
   </div>
 </template>
