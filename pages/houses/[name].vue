@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="custom">
-    <div class="container mb-2">
+    <div class="mb-2">
       <h3>{{ house.建案 }} 建案詳細資料</h3>
 
       <div class="flex flex-col md:flex-row">

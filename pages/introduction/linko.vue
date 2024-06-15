@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="">
     <h1>城市探索 - 大林口生活圈</h1>
 
     <div class="flex flex-row flex-wrap">

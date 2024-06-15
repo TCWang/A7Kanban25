@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="">
     <h1>城市探索 - A7重劃區 地區介紹</h1>
 
     <div class="flex flex-row flex-wrap">

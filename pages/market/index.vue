@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex flex-col h-screen">
+  <div class="flex flex-col h-screen">
     <h2>地區建案 - 實價資訊</h2>
     <div class="flex-1 h-1/2 w-full p-4 bg-gray-200 overflow-y-scroll">
       <!-- 上方窗口 -->

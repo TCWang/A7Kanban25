@@ -1,19 +1,19 @@
 <template>
   <div class="row" v-if="isHeader">
-    <p class="header item-long">建案</p>
-    <p class="header item">110Q3</p>
-    <p class="header item">110Q4</p>
-    <p class="header item">111Q1</p>
-    <p class="header item">111Q2</p>
-    <p class="header item">111Q3</p>
-    <p class="header item">111Q4</p>
-    <p class="header item">112Q1</p>
-    <p class="header item">112Q2</p>
-    <p class="header item">112Q3</p>
-    <p class="header item">112Q4</p>
-    <p class="header item">113Q1</p>
-    <p class="header item">113Q2</p>
-    <p class="header item">Ptotal</p>
+    <p class="item-long">建案</p>
+    <p class="item">110Q3</p>
+    <p class="item">Q4</p>
+    <p class="item">111Q1</p>
+    <p class="item">Q2</p>
+    <p class="item">Q3</p>
+    <p class="item">Q4</p>
+    <p class="item">112Q1</p>
+    <p class="item">Q2</p>
+    <p class="item">Q3</p>
+    <p class="item">Q4</p>
+    <p class="item">113Q1</p>
+    <p class="item">Q2</p>
+    <p class="item">總單價</p>
   </div>
   <div
     v-else
@@ -91,8 +91,8 @@ const props = defineProps<RowProps>();
 .header {
   margin: 0;
   margin-right: 0rem;
-  padding: 0.1rem 0.1rem;
-  font-weight: 400;
+  padding: 0rem 0rem;
+  /* font-weight: 400; */
   /* width: auto; */
 }
 .item {

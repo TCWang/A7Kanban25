@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="">
     <h1>地區建案 - 建案匯總</h1>
     <HouseTable />
     <br />
