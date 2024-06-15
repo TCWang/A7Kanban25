@@ -1,1 +1,0 @@
-import{_ as e}from"./D2UCVVH-.js";import{_ as o,c,b as n,o as r}from"./BG_OCotn.js";const s={};function _(a,m){const t=e;return r(),c("div",null,[n(t,{src:"/images/introduction/int-000.jpeg",class:"w-1/2 md:w-1/3"})])}const p=o(s,[["render",_]]);export{p as default};
