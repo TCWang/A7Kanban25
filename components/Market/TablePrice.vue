@@ -1,9 +1,30 @@
 <script setup>
 import houses from "@/data/houseinfo.json";
 
+// Function to convert string numbers to actual numbers
+function convertStringsToNumbers(data) {
+  if (Array.isArray(data)) {
+    return data.map(convertStringsToNumbers);
+  } else if (typeof data === "object" && data !== null) {
+    return Object.keys(data).reduce((acc, key) => {
+      acc[key] = convertStringsToNumbers(data[key]);
+      return acc;
+    }, {});
+  } else if (typeof data === "string" && !isNaN(data)) {
+    return Number(data);
+  } else {
+    return data;
+  }
+}
+
+// Apply the function to the imported data
 const housesOrganized = {
-  newSorted: [...houses.price],
+  newSorted: convertStringsToNumbers(houses.price),
 };
+
+// const housesOrganized = {
+//   newSorted: [...houses.price],
+// };
 // const housesOrganized = {
 //   newSorted: [...houses]
 //     .filter((house) => house.選擇2 === "Y")
