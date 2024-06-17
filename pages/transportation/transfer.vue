@@ -7,6 +7,29 @@
         <ul style="list-style: none; padding-left: 2ch">
           <li>
             3號月台：
+            <a href="/files/桃園長庚轉運站-長庚校區-交通車時刻表.pdf"
+              >長庚大學校區線</a
+            >
+          </li>
+          <li>
+            4號月台：<a href="/files/桃園長庚轉運站-醫護社區-交通車時刻表.pdf"
+              >長庚醫護社區線</a
+            >
+          </li>
+          <li>
+            5號月台：
+            <a href="/files/桃園長庚轉運站-養生文化村-護理之家-交通車時刻表.pdf"
+              >養生文化村、養生村護理之家線</a
+            >
+          </li>
+          <li>
+            6號月台：
+            <a href="/files/桃園長庚轉運站-桃園院區-交通車時刻表.pdf"
+              >桃園長庚線</a
+            >
+          </li>
+          <!-- <li>
+            3號月台：
             <a href="https://www1.cgmh.org.tw/frms/cgmhline/cgmhline04.html"
               >長庚大學校區線</a
             >
@@ -28,7 +51,7 @@
             <a href="https://www1.cgmh.org.tw/frms/cgmhline/cgmhline01.html"
               >桃園長庚線</a
             >
-          </li>
+          </li> -->
 
           <li>
             16號月台：
