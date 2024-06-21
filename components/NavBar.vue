@@ -125,7 +125,7 @@ export default {
           name: "房屋市場",
           open: false,
           submenu: [
-            { name: "房市行情", link: "/market/charts" },
+            { name: "建案行情", link: "/market/charts" },
             { name: "房價趨勢", link: "/market/trend" },
             { name: "市場分析", link: "/tbd" },
           ],

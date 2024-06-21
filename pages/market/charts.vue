@@ -1,12 +1,13 @@
 <template>
   <div>
-    <h1>房屋市場 - 市場行情</h1>
+    <h2 class="mt-4">建案房市看版</h2>
+    <ChartsApartment01 />
   </div>
 </template>
 
 <script setup>
 useHead({
-  title: "房屋市場 - 市場行情",
+  title: "房屋市場 - 建案行情",
 });
 </script>
 
