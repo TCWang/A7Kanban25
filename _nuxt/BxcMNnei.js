@@ -1,1 +1,0 @@
-import{_ as o,c as s,a as t,Y as a,o as c}from"./Do72zEsm.js";const n={},r={class:"container mx-auto max-w-full p-4"};function l(e,_){return c(),s("div",null,[t("div",r,[a(e.$slots,"default")])])}const f=o(n,[["render",l]]);export{f as default};
