@@ -2,6 +2,7 @@
   <div>
     <h2 class="mt-4">建案房市看版</h2>
     <ChartsApartment01 />
+    <ChartsApartment02 />
   </div>
 </template>
 
