@@ -128,6 +128,7 @@ export default {
             { name: "建案行情", link: "/market/charts" },
             { name: "房價趨勢", link: "/market/trend" },
             { name: "市場分析", link: "/market/analysis" },
+            { name: "機捷沿線", link: "/market/uberland" },
           ],
         },
       ],
