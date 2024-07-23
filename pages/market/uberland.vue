@@ -2,11 +2,20 @@
   <div>
     <h2 class="mt-4">機捷沿線 房屋市場</h2>
 
-    依據
-    <a
-      href="https://www-ws.land.ntpc.gov.tw/001/Upload/407/relfile/9040/8449/8603c466-7117-48ea-b48b-6ef1b147d806.pdf"
-      >Uberland</a
-    >: 桃園機場捷運 不動產交易行情分析
+    依據 新莊地政事務所
+    <a href="https://www.xinzhuang.land.ntpc.gov.tw/cp.aspx?n=11675"
+      >機場捷運沿線不動產交易行情分析</a
+    >
+    <br />
+    其他相關資料請參考:
+    <a href="https://www.xinzhuang.land.ntpc.gov.tw/cp.aspx?n=12137"
+      >預售屋備查資訊及實價登錄分析季報</a
+    >
+    <br />
+    新莊地政事務所的 數据分析似乎可以作為桃園市參考！！！
+    <a href="https://www.xinzhuang.land.ntpc.gov.tw/cp.aspx?n=12125"
+      >Uberland 生活圈行情資訊到你家</a
+    >
 
     <NuxtImg src="/images/market/MAR-001-機捷沿線-01.jpeg" />
     <NuxtImg src="/images/market/MAR-001-機捷沿線-02.jpeg" />
