@@ -13,10 +13,7 @@
           label="202 路線圖及時刻表"
         />
 
-        <NuxtImg
-          src="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-images/transportation/TRA-202.png"
-          alt="公車202"
-        />
+        <NuxtImg src="/images/transportation/TRA-202.png" alt="公車202" />
       </div>
       <div class="w-full md:w-1/2 p-2 shadow-md">
         桃園公車資訊
@@ -28,10 +25,7 @@
           label="603 路線圖及時刻表"
         />
 
-        <NuxtImg
-          src="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-images/transportation/TRA-603.png"
-          alt="公車603"
-        />
+        <NuxtImg src="/images/transportation/TRA-603.png" alt="公車603" />
       </div>
       <div class="w-full md:w-1/2 p-2 shadow-md">
         桃園公車資訊
@@ -43,10 +37,7 @@
           label="606 路線圖及時刻表"
         />
 
-        <NuxtImg
-          src="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-images/transportation/TRA-606.jpeg"
-          alt="公車606"
-        />
+        <NuxtImg src="/images/transportation/TRA-606.jpeg" alt="公車606" />
       </div>
       <div class="w-full md:w-1/2 p-2 shadow-md">
         桃園公車資訊
@@ -58,10 +49,7 @@
           label="607 路線圖及時刻表"
         />
 
-        <NuxtImg
-          src="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-images/transportation/TRA-607.webp"
-          alt="公車607"
-        />
+        <NuxtImg src="/images/transportation/TRA-607.webp" alt="公車607" />
       </div>
       <div class="w-full md:w-1/2 p-2 shadow-md">
         桃園樂活巴士

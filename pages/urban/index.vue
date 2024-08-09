@@ -5,46 +5,26 @@
     <ul>
       <li>
         2010/03/10
-        <a
-          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-001.pdf"
-          >A7站區開發案興辦事業計畫-草案</a
-        >
+        <a href="/files/INT-001.pdf">A7站區開發案興辦事業計畫-草案</a>
       </li>
       <li>
         2010/03/10
-        <a
-          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-002.pdf"
-          >A7站區開發案興辦事業計畫-土地管制要點</a
-        >
+        <a href="/files/INT-002.pdf">A7站區開發案興辦事業計畫-土地管制要點</a>
       </li>
       <li>
         2010/03/10
-        <a
-          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-003.pdf"
-          >機場捷運A7站開發案簡報 990311</a
-        >
+        <a href="/files/INT-003.pdf">機場捷運A7站開發案簡報 990311</a>
       </li>
       <li>
         2010/04
-        <a
-          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-004.pdf"
-          >A7站區開發案興辦事業計畫-細部計畫書</a
-        >
+        <a href="/files/INT-004.pdf">A7站區開發案興辦事業計畫-細部計畫書</a>
       </li>
 
       <li>
         2015/06
-        <a
-          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-005.pdf"
-          >A7站區開發案興辦事業計畫-第三階段</a
-        >
+        <a href="/files/INT-005.pdf">A7站區開發案興辦事業計畫-第三階段</a>
       </li>
-      <li>
-        2015/08/31<a
-          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-006.pdf"
-          >A7站地區都市設計審議</a
-        >
-      </li>
+      <li>2015/08/31<a href="/files/INT-006.pdf">A7站地區都市設計審議</a></li>
 
       <li>
         2018/09/27
