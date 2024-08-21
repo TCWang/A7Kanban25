@@ -10,6 +10,7 @@
         >
 
         <NuxtImg src="/images/transportation/TRA-103-桃園捷運圖.jpeg" />
+        <NuxtImg src="/images/transportation/TRA-103-桃園綠線站名.jpeg" />
       </section>
       <section class="w-full md:w-1/2 p-2">
         <NuxtImg src="/images/transportation/TRA-103-桃園捷運圖2.png" />
