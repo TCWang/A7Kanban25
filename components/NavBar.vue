@@ -38,8 +38,6 @@
         }"
         class="md:flex-row flex-col items-center justify-start md:space-x-1 navigation-menu pb-3 md:pb-0"
       >
-        <a class="py-2 px-3 block text-white" href="/urban">都市規劃</a>
-
         <!-- Dropdown Menu -->
         <div class="relative" v-for="(item, index) in menuItems" :key="index">
           <button
@@ -93,6 +91,14 @@ export default {
     return {
       mobileMenuOpen: false,
       menuItems: [
+        {
+          name: "都市規劃",
+          open: false,
+          submenu: [
+            { name: "A7重劃區規劃", link: "/urban" },
+            { name: "林口特區規劃", link: "/urban/plan" },
+          ],
+        },
         {
           name: "交通指南",
           open: false,
