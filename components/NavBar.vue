@@ -97,6 +97,7 @@ export default {
           submenu: [
             { name: "A7重劃區規劃", link: "/urban" },
             { name: "林口特區規劃", link: "/urban/plan" },
+            { name: "公園規劃回顧", link: "/urban/history" },
           ],
         },
         {
