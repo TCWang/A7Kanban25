@@ -1,4 +1,4 @@
-import Vue from "vue";
+import { defineNuxtPlugin } from "#app";
 import {
   Bar,
   Line,
@@ -8,7 +8,7 @@ import {
   Bubble,
   PolarArea,
   Radar,
-} from "vue-chartjs/legacy";
+} from "vue-chartjs";
 import {
   Chart as ChartJS,
   Title,
@@ -22,43 +22,50 @@ import {
   ArcElement,
 } from "chart.js";
 
-ChartJS.register(
-  Title,
-  Tooltip,
-  Legend,
-  PointElement,
-  BarElement,
-  CategoryScale,
-  LinearScale,
-  LineElement,
-  PointElement,
-  ArcElement
-);
+export default defineNuxtPlugin((nuxtApp) => {
+  // Guard to keep Chart.js from initializing during SSR where the DOM is unavailable.
+  if (import.meta.server) {
+    return;
+  }
 
-Vue.component("LineChart", {
-  extends: Line,
-});
+  ChartJS.register(
+    Title,
+    Tooltip,
+    Legend,
+    PointElement,
+    BarElement,
+    CategoryScale,
+    LinearScale,
+    LineElement,
+    PointElement,
+    ArcElement
+  );
 
-Vue.component("DoughnutChart", {
-  extends: Doughnut,
-});
+  nuxtApp.vueApp.component("LineChart", {
+    extends: Line,
+  });
 
-Vue.component("BarChart", {
-  extends: Bar,
-});
+  nuxtApp.vueApp.component("DoughnutChart", {
+    extends: Doughnut,
+  });
 
-Vue.component("PieChart", {
-  extends: Pie,
-});
+  nuxtApp.vueApp.component("BarChart", {
+    extends: Bar,
+  });
 
-Vue.component("ScatterChart", {
-  extends: Scatter,
-});
+  nuxtApp.vueApp.component("PieChart", {
+    extends: Pie,
+  });
 
-Vue.component("BubbleChart", {
-  extends: Bubble,
-});
+  nuxtApp.vueApp.component("ScatterChart", {
+    extends: Scatter,
+  });
 
-Vue.component("RadarChart", {
-  extends: Radar,
+  nuxtApp.vueApp.component("BubbleChart", {
+    extends: Bubble,
+  });
+
+  nuxtApp.vueApp.component("RadarChart", {
+    extends: Radar,
+  });
 });
