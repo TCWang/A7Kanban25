@@ -56,6 +56,17 @@
         >
       </li>
     </ul>
+
+    <br /><br />
+
+    <iframe
+      width="100%"
+      height="488"
+      frameborder="0"
+      title="Felt Map"
+      src="https://felt.com/embed/map/Map-Gui-Shan-Xing-Zheng-Li-PzibfJzDS0qZsdIgWjPVdD?loc=25.04538%2C121.37815%2C14.55z&legend=1&cooperativeGestures=1&link=1&geolocation=0&zoomControls=1&scaleBar=1"
+      referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
   </div>
 </template>
 
